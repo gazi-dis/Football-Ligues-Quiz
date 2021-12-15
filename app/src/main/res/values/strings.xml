@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hangi Takım Hangi Ligde ?</string>
+    <string name="konular">Konular</string>
+    <string name="baslat">Başlat</string>
+    <string name="ilerleme">İlerleme Durumu 0/10</string>
+    <string name="puan">Puan</string>
+</resources>

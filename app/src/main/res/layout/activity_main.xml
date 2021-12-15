@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abdurrahmangazi.hangitakimhangiligde.MainActivity"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/soru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/cevap1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="1"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/cevap2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="2"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/cevap3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="3"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/cevap4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="4"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/sinaviBaslat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/baslat" />
+
+    <EditText
+        android:id="@+id/ilerlemeYazisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        android:text="@string/ilerleme"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:max="10"
+        android:progress="0"
+        android:progressTint="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/puan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        android:text="@string/puan"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:visibility="gone" />
+
+</LinearLayout>
+
