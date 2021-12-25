@@ -1,4 +1,4 @@
-package com.example.abdurrahmangazi.hangitakimhangiligde;
+package com.example.md.hangitakimhangiligde;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,4 +1,4 @@
-package com.example.abdurrahmangazi.hangitakimhangiligde;
+package com.example.md.hangitakimhangiligde;
 
 /**
  * Created by Abdurrahman on 12.12.2021.
